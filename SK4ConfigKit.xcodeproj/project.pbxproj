@@ -10,6 +10,41 @@
 		87C2B2651CC44C0B00F8E251 /* SK4ConfigKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C2B2641CC44C0B00F8E251 /* SK4ConfigKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87C2B26C1CC44C0B00F8E251 /* SK4ConfigKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2B2611CC44C0B00F8E251 /* SK4ConfigKit.framework */; };
 		87C2B2711CC44C0B00F8E251 /* SK4ConfigKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2701CC44C0B00F8E251 /* SK4ConfigKitTests.swift */; };
+		87C2B2881CC4547800F8E251 /* SK4ConfigAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2841CC4547800F8E251 /* SK4ConfigAdmin.swift */; };
+		87C2B2891CC4547800F8E251 /* SK4ConfigTableViewAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2851CC4547800F8E251 /* SK4ConfigTableViewAdmin.swift */; };
+		87C2B28A1CC4547800F8E251 /* SK4ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2861CC4547800F8E251 /* SK4ConfigTableViewController.swift */; };
+		87C2B28B1CC4547800F8E251 /* SK4ConfigUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2871CC4547800F8E251 /* SK4ConfigUserDefaults.swift */; };
+		87C2B29A1CC4549F00F8E251 /* SK4ConfigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B28D1CC4549E00F8E251 /* SK4ConfigCell.swift */; };
+		87C2B29B1CC4549F00F8E251 /* SK4ConfigCellChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B28E1CC4549E00F8E251 /* SK4ConfigCellChoice.swift */; };
+		87C2B29C1CC4549F00F8E251 /* SK4ConfigCellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B28F1CC4549E00F8E251 /* SK4ConfigCellColor.swift */; };
+		87C2B29D1CC4549F00F8E251 /* SK4ConfigCellColorIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2901CC4549E00F8E251 /* SK4ConfigCellColorIndex.swift */; };
+		87C2B29E1CC4549F00F8E251 /* SK4ConfigCellDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2911CC4549E00F8E251 /* SK4ConfigCellDate.swift */; };
+		87C2B29F1CC4549F00F8E251 /* SK4ConfigCellDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2921CC4549E00F8E251 /* SK4ConfigCellDirectory.swift */; };
+		87C2B2A01CC4549F00F8E251 /* SK4ConfigCellExec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2931CC4549F00F8E251 /* SK4ConfigCellExec.swift */; };
+		87C2B2A11CC4549F00F8E251 /* SK4ConfigCellLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2941CC4549F00F8E251 /* SK4ConfigCellLabel.swift */; };
+		87C2B2A21CC4549F00F8E251 /* SK4ConfigCellPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2951CC4549F00F8E251 /* SK4ConfigCellPicker.swift */; };
+		87C2B2A31CC4549F00F8E251 /* SK4ConfigCellSegmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2961CC4549F00F8E251 /* SK4ConfigCellSegmented.swift */; };
+		87C2B2A41CC4549F00F8E251 /* SK4ConfigCellSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2971CC4549F00F8E251 /* SK4ConfigCellSwitch.swift */; };
+		87C2B2A51CC4549F00F8E251 /* SK4ConfigCellTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2981CC4549F00F8E251 /* SK4ConfigCellTextField.swift */; };
+		87C2B2A61CC4549F00F8E251 /* SK4ConfigCellTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2991CC4549F00F8E251 /* SK4ConfigCellTextView.swift */; };
+		87C2B2B41CC454BC00F8E251 /* SK4ConfigAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2A81CC454BC00F8E251 /* SK4ConfigAction.swift */; };
+		87C2B2B51CC454BC00F8E251 /* SK4ConfigBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2A91CC454BC00F8E251 /* SK4ConfigBool.swift */; };
+		87C2B2B61CC454BC00F8E251 /* SK4ConfigCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2AA1CC454BC00F8E251 /* SK4ConfigCGFloat.swift */; };
+		87C2B2B71CC454BC00F8E251 /* SK4ConfigGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2AB1CC454BC00F8E251 /* SK4ConfigGenerics.swift */; };
+		87C2B2B81CC454BC00F8E251 /* SK4ConfigIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2AC1CC454BC00F8E251 /* SK4ConfigIndex.swift */; };
+		87C2B2B91CC454BC00F8E251 /* SK4ConfigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2AD1CC454BC00F8E251 /* SK4ConfigInt.swift */; };
+		87C2B2BA1CC454BC00F8E251 /* SK4ConfigMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2AE1CC454BC00F8E251 /* SK4ConfigMulti.swift */; };
+		87C2B2BB1CC454BC00F8E251 /* SK4ConfigNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2AF1CC454BC00F8E251 /* SK4ConfigNSDate.swift */; };
+		87C2B2BC1CC454BC00F8E251 /* SK4ConfigString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2B01CC454BC00F8E251 /* SK4ConfigString.swift */; };
+		87C2B2BD1CC454BC00F8E251 /* SK4ConfigUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2B11CC454BC00F8E251 /* SK4ConfigUIColor.swift */; };
+		87C2B2BE1CC454BC00F8E251 /* SK4ConfigUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2B21CC454BC00F8E251 /* SK4ConfigUInt64.swift */; };
+		87C2B2BF1CC454BC00F8E251 /* SK4ConfigValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2B31CC454BC00F8E251 /* SK4ConfigValue.swift */; };
+		87C2B2C61CC454DB00F8E251 /* SK4ConfigChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C11CC454DB00F8E251 /* SK4ConfigChoiceViewController.swift */; };
+		87C2B2C71CC454DB00F8E251 /* SK4ConfigColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C21CC454DB00F8E251 /* SK4ConfigColorViewController.swift */; };
+		87C2B2C81CC454DB00F8E251 /* SK4ConfigDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C31CC454DB00F8E251 /* SK4ConfigDateViewController.swift */; };
+		87C2B2C91CC454DB00F8E251 /* SK4ConfigPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C41CC454DB00F8E251 /* SK4ConfigPickerViewController.swift */; };
+		87C2B2CA1CC454DB00F8E251 /* SK4ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */; };
+		87C2B2CB1CC4552D00F8E251 /* SK4Toolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2B2811CC4545400F8E251 /* SK4Toolkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +55,20 @@
 			remoteGlobalIDString = 87C2B2601CC44C0B00F8E251;
 			remoteInfo = SK4ConfigKit;
 		};
+		87C2B2801CC4545400F8E251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87BB45DC1CA2A1F100F0BC50;
+			remoteInfo = SK4Toolkit;
+		};
+		87C2B2821CC4545400F8E251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87BB45E61CA2A1F100F0BC50;
+			remoteInfo = SK4ToolkitTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +78,41 @@
 		87C2B26B1CC44C0B00F8E251 /* SK4ConfigKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK4ConfigKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C2B2701CC44C0B00F8E251 /* SK4ConfigKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK4ConfigKitTests.swift; sourceTree = "<group>"; };
 		87C2B2721CC44C0B00F8E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SK4Toolkit.xcodeproj; path = ../SK4Toolkit/SK4Toolkit.xcodeproj; sourceTree = "<group>"; };
+		87C2B2841CC4547800F8E251 /* SK4ConfigAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigAdmin.swift; sourceTree = "<group>"; };
+		87C2B2851CC4547800F8E251 /* SK4ConfigTableViewAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigTableViewAdmin.swift; sourceTree = "<group>"; };
+		87C2B2861CC4547800F8E251 /* SK4ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigTableViewController.swift; sourceTree = "<group>"; };
+		87C2B2871CC4547800F8E251 /* SK4ConfigUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigUserDefaults.swift; sourceTree = "<group>"; };
+		87C2B28D1CC4549E00F8E251 /* SK4ConfigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCell.swift; path = cell/SK4ConfigCell.swift; sourceTree = "<group>"; };
+		87C2B28E1CC4549E00F8E251 /* SK4ConfigCellChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellChoice.swift; path = cell/SK4ConfigCellChoice.swift; sourceTree = "<group>"; };
+		87C2B28F1CC4549E00F8E251 /* SK4ConfigCellColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellColor.swift; path = cell/SK4ConfigCellColor.swift; sourceTree = "<group>"; };
+		87C2B2901CC4549E00F8E251 /* SK4ConfigCellColorIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellColorIndex.swift; path = cell/SK4ConfigCellColorIndex.swift; sourceTree = "<group>"; };
+		87C2B2911CC4549E00F8E251 /* SK4ConfigCellDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellDate.swift; path = cell/SK4ConfigCellDate.swift; sourceTree = "<group>"; };
+		87C2B2921CC4549E00F8E251 /* SK4ConfigCellDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellDirectory.swift; path = cell/SK4ConfigCellDirectory.swift; sourceTree = "<group>"; };
+		87C2B2931CC4549F00F8E251 /* SK4ConfigCellExec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellExec.swift; path = cell/SK4ConfigCellExec.swift; sourceTree = "<group>"; };
+		87C2B2941CC4549F00F8E251 /* SK4ConfigCellLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellLabel.swift; path = cell/SK4ConfigCellLabel.swift; sourceTree = "<group>"; };
+		87C2B2951CC4549F00F8E251 /* SK4ConfigCellPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellPicker.swift; path = cell/SK4ConfigCellPicker.swift; sourceTree = "<group>"; };
+		87C2B2961CC4549F00F8E251 /* SK4ConfigCellSegmented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellSegmented.swift; path = cell/SK4ConfigCellSegmented.swift; sourceTree = "<group>"; };
+		87C2B2971CC4549F00F8E251 /* SK4ConfigCellSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellSwitch.swift; path = cell/SK4ConfigCellSwitch.swift; sourceTree = "<group>"; };
+		87C2B2981CC4549F00F8E251 /* SK4ConfigCellTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellTextField.swift; path = cell/SK4ConfigCellTextField.swift; sourceTree = "<group>"; };
+		87C2B2991CC4549F00F8E251 /* SK4ConfigCellTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCellTextView.swift; path = cell/SK4ConfigCellTextView.swift; sourceTree = "<group>"; };
+		87C2B2A81CC454BC00F8E251 /* SK4ConfigAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigAction.swift; path = value/SK4ConfigAction.swift; sourceTree = "<group>"; };
+		87C2B2A91CC454BC00F8E251 /* SK4ConfigBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigBool.swift; path = value/SK4ConfigBool.swift; sourceTree = "<group>"; };
+		87C2B2AA1CC454BC00F8E251 /* SK4ConfigCGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigCGFloat.swift; path = value/SK4ConfigCGFloat.swift; sourceTree = "<group>"; };
+		87C2B2AB1CC454BC00F8E251 /* SK4ConfigGenerics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigGenerics.swift; path = value/SK4ConfigGenerics.swift; sourceTree = "<group>"; };
+		87C2B2AC1CC454BC00F8E251 /* SK4ConfigIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigIndex.swift; path = value/SK4ConfigIndex.swift; sourceTree = "<group>"; };
+		87C2B2AD1CC454BC00F8E251 /* SK4ConfigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigInt.swift; path = value/SK4ConfigInt.swift; sourceTree = "<group>"; };
+		87C2B2AE1CC454BC00F8E251 /* SK4ConfigMulti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigMulti.swift; path = value/SK4ConfigMulti.swift; sourceTree = "<group>"; };
+		87C2B2AF1CC454BC00F8E251 /* SK4ConfigNSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigNSDate.swift; path = value/SK4ConfigNSDate.swift; sourceTree = "<group>"; };
+		87C2B2B01CC454BC00F8E251 /* SK4ConfigString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigString.swift; path = value/SK4ConfigString.swift; sourceTree = "<group>"; };
+		87C2B2B11CC454BC00F8E251 /* SK4ConfigUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigUIColor.swift; path = value/SK4ConfigUIColor.swift; sourceTree = "<group>"; };
+		87C2B2B21CC454BC00F8E251 /* SK4ConfigUInt64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigUInt64.swift; path = value/SK4ConfigUInt64.swift; sourceTree = "<group>"; };
+		87C2B2B31CC454BC00F8E251 /* SK4ConfigValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigValue.swift; path = value/SK4ConfigValue.swift; sourceTree = "<group>"; };
+		87C2B2C11CC454DB00F8E251 /* SK4ConfigChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigChoiceViewController.swift; path = vc/SK4ConfigChoiceViewController.swift; sourceTree = "<group>"; };
+		87C2B2C21CC454DB00F8E251 /* SK4ConfigColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigColorViewController.swift; path = vc/SK4ConfigColorViewController.swift; sourceTree = "<group>"; };
+		87C2B2C31CC454DB00F8E251 /* SK4ConfigDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigDateViewController.swift; path = vc/SK4ConfigDateViewController.swift; sourceTree = "<group>"; };
+		87C2B2C41CC454DB00F8E251 /* SK4ConfigPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigPickerViewController.swift; path = vc/SK4ConfigPickerViewController.swift; sourceTree = "<group>"; };
+		87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigViewController.swift; path = vc/SK4ConfigViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C2B2CB1CC4552D00F8E251 /* SK4Toolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +138,7 @@
 		87C2B2571CC44C0B00F8E251 = {
 			isa = PBXGroup;
 			children = (
+				87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */,
 				87C2B2631CC44C0B00F8E251 /* SK4ConfigKit */,
 				87C2B26F1CC44C0B00F8E251 /* SK4ConfigKitTests */,
 				87C2B2621CC44C0B00F8E251 /* Products */,
@@ -72,6 +158,13 @@
 			isa = PBXGroup;
 			children = (
 				87C2B2641CC44C0B00F8E251 /* SK4ConfigKit.h */,
+				87C2B28C1CC4549000F8E251 /* cell */,
+				87C2B2A71CC454AF00F8E251 /* value */,
+				87C2B2C01CC454CB00F8E251 /* vc */,
+				87C2B2841CC4547800F8E251 /* SK4ConfigAdmin.swift */,
+				87C2B2851CC4547800F8E251 /* SK4ConfigTableViewAdmin.swift */,
+				87C2B2861CC4547800F8E251 /* SK4ConfigTableViewController.swift */,
+				87C2B2871CC4547800F8E251 /* SK4ConfigUserDefaults.swift */,
 				87C2B2661CC44C0B00F8E251 /* Info.plist */,
 			);
 			path = SK4ConfigKit;
@@ -84,6 +177,66 @@
 				87C2B2721CC44C0B00F8E251 /* Info.plist */,
 			);
 			path = SK4ConfigKitTests;
+			sourceTree = "<group>";
+		};
+		87C2B27C1CC4545400F8E251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C2B2811CC4545400F8E251 /* SK4Toolkit.framework */,
+				87C2B2831CC4545400F8E251 /* SK4ToolkitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C2B28C1CC4549000F8E251 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				87C2B28D1CC4549E00F8E251 /* SK4ConfigCell.swift */,
+				87C2B28E1CC4549E00F8E251 /* SK4ConfigCellChoice.swift */,
+				87C2B28F1CC4549E00F8E251 /* SK4ConfigCellColor.swift */,
+				87C2B2901CC4549E00F8E251 /* SK4ConfigCellColorIndex.swift */,
+				87C2B2911CC4549E00F8E251 /* SK4ConfigCellDate.swift */,
+				87C2B2921CC4549E00F8E251 /* SK4ConfigCellDirectory.swift */,
+				87C2B2931CC4549F00F8E251 /* SK4ConfigCellExec.swift */,
+				87C2B2941CC4549F00F8E251 /* SK4ConfigCellLabel.swift */,
+				87C2B2951CC4549F00F8E251 /* SK4ConfigCellPicker.swift */,
+				87C2B2961CC4549F00F8E251 /* SK4ConfigCellSegmented.swift */,
+				87C2B2971CC4549F00F8E251 /* SK4ConfigCellSwitch.swift */,
+				87C2B2981CC4549F00F8E251 /* SK4ConfigCellTextField.swift */,
+				87C2B2991CC4549F00F8E251 /* SK4ConfigCellTextView.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		87C2B2A71CC454AF00F8E251 /* value */ = {
+			isa = PBXGroup;
+			children = (
+				87C2B2A81CC454BC00F8E251 /* SK4ConfigAction.swift */,
+				87C2B2A91CC454BC00F8E251 /* SK4ConfigBool.swift */,
+				87C2B2AA1CC454BC00F8E251 /* SK4ConfigCGFloat.swift */,
+				87C2B2AB1CC454BC00F8E251 /* SK4ConfigGenerics.swift */,
+				87C2B2AC1CC454BC00F8E251 /* SK4ConfigIndex.swift */,
+				87C2B2AD1CC454BC00F8E251 /* SK4ConfigInt.swift */,
+				87C2B2AE1CC454BC00F8E251 /* SK4ConfigMulti.swift */,
+				87C2B2AF1CC454BC00F8E251 /* SK4ConfigNSDate.swift */,
+				87C2B2B01CC454BC00F8E251 /* SK4ConfigString.swift */,
+				87C2B2B11CC454BC00F8E251 /* SK4ConfigUIColor.swift */,
+				87C2B2B21CC454BC00F8E251 /* SK4ConfigUInt64.swift */,
+				87C2B2B31CC454BC00F8E251 /* SK4ConfigValue.swift */,
+			);
+			name = value;
+			sourceTree = "<group>";
+		};
+		87C2B2C01CC454CB00F8E251 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				87C2B2C11CC454DB00F8E251 /* SK4ConfigChoiceViewController.swift */,
+				87C2B2C21CC454DB00F8E251 /* SK4ConfigColorViewController.swift */,
+				87C2B2C31CC454DB00F8E251 /* SK4ConfigDateViewController.swift */,
+				87C2B2C41CC454DB00F8E251 /* SK4ConfigPickerViewController.swift */,
+				87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */,
+			);
+			name = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +317,12 @@
 			mainGroup = 87C2B2571CC44C0B00F8E251;
 			productRefGroup = 87C2B2621CC44C0B00F8E251 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87C2B27C1CC4545400F8E251 /* Products */;
+					ProjectRef = 87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				87C2B2601CC44C0B00F8E251 /* SK4ConfigKit */,
@@ -171,6 +330,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		87C2B2811CC4545400F8E251 /* SK4Toolkit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SK4Toolkit.framework;
+			remoteRef = 87C2B2801CC4545400F8E251 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87C2B2831CC4545400F8E251 /* SK4ToolkitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SK4ToolkitTests.xctest;
+			remoteRef = 87C2B2821CC4545400F8E251 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87C2B25F1CC44C0B00F8E251 /* Resources */ = {
@@ -194,6 +370,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C2B2B51CC454BC00F8E251 /* SK4ConfigBool.swift in Sources */,
+				87C2B2BC1CC454BC00F8E251 /* SK4ConfigString.swift in Sources */,
+				87C2B29E1CC4549F00F8E251 /* SK4ConfigCellDate.swift in Sources */,
+				87C2B2C81CC454DB00F8E251 /* SK4ConfigDateViewController.swift in Sources */,
+				87C2B2A01CC4549F00F8E251 /* SK4ConfigCellExec.swift in Sources */,
+				87C2B29A1CC4549F00F8E251 /* SK4ConfigCell.swift in Sources */,
+				87C2B2A61CC4549F00F8E251 /* SK4ConfigCellTextView.swift in Sources */,
+				87C2B2BD1CC454BC00F8E251 /* SK4ConfigUIColor.swift in Sources */,
+				87C2B29F1CC4549F00F8E251 /* SK4ConfigCellDirectory.swift in Sources */,
+				87C2B2891CC4547800F8E251 /* SK4ConfigTableViewAdmin.swift in Sources */,
+				87C2B29C1CC4549F00F8E251 /* SK4ConfigCellColor.swift in Sources */,
+				87C2B28B1CC4547800F8E251 /* SK4ConfigUserDefaults.swift in Sources */,
+				87C2B2A31CC4549F00F8E251 /* SK4ConfigCellSegmented.swift in Sources */,
+				87C2B2CA1CC454DB00F8E251 /* SK4ConfigViewController.swift in Sources */,
+				87C2B2BA1CC454BC00F8E251 /* SK4ConfigMulti.swift in Sources */,
+				87C2B2BF1CC454BC00F8E251 /* SK4ConfigValue.swift in Sources */,
+				87C2B2A51CC4549F00F8E251 /* SK4ConfigCellTextField.swift in Sources */,
+				87C2B2BE1CC454BC00F8E251 /* SK4ConfigUInt64.swift in Sources */,
+				87C2B2A11CC4549F00F8E251 /* SK4ConfigCellLabel.swift in Sources */,
+				87C2B2881CC4547800F8E251 /* SK4ConfigAdmin.swift in Sources */,
+				87C2B2C91CC454DB00F8E251 /* SK4ConfigPickerViewController.swift in Sources */,
+				87C2B2C61CC454DB00F8E251 /* SK4ConfigChoiceViewController.swift in Sources */,
+				87C2B28A1CC4547800F8E251 /* SK4ConfigTableViewController.swift in Sources */,
+				87C2B2A41CC4549F00F8E251 /* SK4ConfigCellSwitch.swift in Sources */,
+				87C2B2B91CC454BC00F8E251 /* SK4ConfigInt.swift in Sources */,
+				87C2B2B41CC454BC00F8E251 /* SK4ConfigAction.swift in Sources */,
+				87C2B29B1CC4549F00F8E251 /* SK4ConfigCellChoice.swift in Sources */,
+				87C2B2B61CC454BC00F8E251 /* SK4ConfigCGFloat.swift in Sources */,
+				87C2B29D1CC4549F00F8E251 /* SK4ConfigCellColorIndex.swift in Sources */,
+				87C2B2BB1CC454BC00F8E251 /* SK4ConfigNSDate.swift in Sources */,
+				87C2B2A21CC4549F00F8E251 /* SK4ConfigCellPicker.swift in Sources */,
+				87C2B2C71CC454DB00F8E251 /* SK4ConfigColorViewController.swift in Sources */,
+				87C2B2B71CC454BC00F8E251 /* SK4ConfigGenerics.swift in Sources */,
+				87C2B2B81CC454BC00F8E251 /* SK4ConfigIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +520,7 @@
 		87C2B2761CC44C0B00F8E251 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +531,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4ConfigKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		87C2B2771CC44C0B00F8E251 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -378,6 +591,7 @@
 				87C2B2771CC44C0B00F8E251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C2B2781CC44C0B00F8E251 /* Build configuration list for PBXNativeTarget "SK4ConfigKitTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +600,7 @@
 				87C2B27A1CC44C0B00F8E251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

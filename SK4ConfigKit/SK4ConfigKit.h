@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for SK4ConfigKit.
-FOUNDATION_EXPORT double SK4ConfigKitVersionNumber;
+//FOUNDATION_EXPORT double SK4ConfigKitVersionNumber;
 
 //! Project version string for SK4ConfigKit.
-FOUNDATION_EXPORT const unsigned char SK4ConfigKitVersionString[];
+//FOUNDATION_EXPORT const unsigned char SK4ConfigKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SK4ConfigKit/PublicHeader.h>
 
