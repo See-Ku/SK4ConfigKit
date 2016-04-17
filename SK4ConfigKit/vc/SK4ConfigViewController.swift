@@ -10,7 +10,7 @@ import UIKit
 import SK4Toolkit
 
 /// ユーザー設定を行うためのViewControllerクラス
-public class SK4ConfigViewController: SK4TableViewController {
+public class SK4ConfigViewController: SK4ConfigTableViewController {
 
 	/// 画面を閉じる時の処理
 	public var completion: (Bool->Void)?

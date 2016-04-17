@@ -1,5 +1,5 @@
 //
-//  SK4TableViewController.swift
+//  SK4ConfigTableViewController.swift
 //  SK4Toolkit
 //
 //  Created by See.Ku on 2016/03/30.
@@ -9,30 +9,20 @@
 import UIKit
 import SK4Toolkit
 
-/// シンプルなTable表示用ViewControllerクラス。ユーザー設定対応
-public class SK4TableViewController: UIViewController {
+/// ユーザー設定用テーブル表示ViewControllerクラス
+public class SK4ConfigTableViewController: SK4TableViewController {
 
 	// /////////////////////////////////////////////////////////////
 	// MARK: - プロパティ＆初期化
-
-	/// UITableView
-	public var tableView: UITableView!
-
-	/// UITableView管理クラス
-	public var tableAdmin: SK4TableViewAdmin!
 
 	/// ユーザー設定管理クラス
 	public var configAdmin: SK4ConfigAdmin?
 
 	/// 初期化
-	public func setup(tableAdmin tableAdmin: SK4TableViewAdmin) {
-		self.tableView = tableAdmin.tableView
-		self.tableAdmin = tableAdmin
-	}
-
-	/// 初期化
 	public func setup(configAdmin configAdmin: SK4ConfigAdmin) {
 		let tv = makeDefaultTableView()
+		sk4LimitWidthConstraints(self, view: tv, maxWidth: SK4ToolkitConst.tableViewMaxWidth)
+
 		setup(tableView: tv, configAdmin: configAdmin)
 	}
 
@@ -44,27 +34,7 @@ public class SK4TableViewController: UIViewController {
 	}
 
 	// /////////////////////////////////////////////////////////////
-	// MARK: - その他
-
-	/// 標準のTableViewを作成
-	public func makeDefaultTableView(style: UITableViewStyle = .Grouped) -> UITableView {
-		let tv = UITableView(frame: view.bounds, style: style)
-		tv.rowHeight = UITableViewAutomaticDimension
-		tv.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
-		view.addSubview(tv)
-		return tv
-	}
-
-	// /////////////////////////////////////////////////////////////
 	// MARK: - for UIViewController
-
-	override public func viewDidLoad() {
-		super.viewDidLoad()
-
-		// デフォルトの設定
-		view.backgroundColor = UIColor(white: 0.75, alpha: 1.0)
-		navigationItem.backBarButtonItem = sk4BarButtonItem(title: "Back")
-	}
 
 	override public func viewWillAppear(animated: Bool) {
 		super.viewWillAppear(animated)
@@ -72,15 +42,8 @@ public class SK4TableViewController: UIViewController {
 		if let configAdmin = configAdmin {
 			navigationItem.title = configAdmin.title
 		}
-
-		tableAdmin?.viewWillAppear()
 	}
 
-	override public func viewWillDisappear(animated: Bool) {
-		super.viewWillDisappear(animated)
-
-		tableAdmin?.viewWillDisappear()
-	}
 }
 
 // eof
