@@ -66,7 +66,7 @@ public class SK4ConfigCellExec: SK4ConfigCell {
 
 	/// 単純に処理を実行するだけのアクションか？
 	func isSingleAction() -> Bool {
-		if configValue.string.isEmpty && configAction.segueId == nil {
+		if accessoryType == .None && configValue.string.isEmpty && configAction.segueId == nil {
 			return true
 		} else {
 			return false
