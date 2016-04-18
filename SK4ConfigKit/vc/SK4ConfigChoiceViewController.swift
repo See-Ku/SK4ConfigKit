@@ -125,6 +125,14 @@ class SK4ConfigChoiceViewControllerAdmin: SK4TableViewAdmin {
 	// /////////////////////////////////////////////////////////////
 	// MARK: - UITableViewDataSource
 
+	func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+		if configIndex.cell is SK4ConfigCellColorIndex {
+			let str = configIndex.choices[indexPath.row]
+			let col = UIColor.sk4SetString(str)
+			cell.textLabel?.backgroundColor = col
+		}
+	}
+
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell: UITableViewCell
 		if let tmp = tableView.dequeueReusableCellWithIdentifier(cellId) {
