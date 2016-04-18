@@ -48,4 +48,4 @@ GitHubからプロジェクトをダウンロードして使って下さい。
 ソースコードのライセンスは MIT とします。
 
 Copyright (c) 2016 See.Ku / AxeRoad  
-https://github.com/See-Ku/SK4Toolkit/blob/master/LICENSE.txt
+https://github.com/See-Ku/SK4ConfigKit/blob/master/LICENSE.txt
