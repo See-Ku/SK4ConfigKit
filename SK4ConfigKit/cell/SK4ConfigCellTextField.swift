@@ -18,6 +18,7 @@ public class SK4ConfigCellTextField: SK4ConfigCell {
 	struct Const {
 		static let ctrlTag = 1
 		static let baseRect = CGRect(x: 152, y: 7, width: 158, height: 30)
+		static let disableTextColor = UIColor(white: 0.75, alpha: 1.0)
 	}
 
 	/// 文字列の最大長　※0の時は文字列長の制限をしない
@@ -51,7 +52,13 @@ public class SK4ConfigCellTextField: SK4ConfigCell {
 		if let tf = cell.contentView.viewWithTag(Const.ctrlTag) as? UITextField {
 			textFieldAdmin.setup(textField: tf, maxLength: maxLength, configCell: self)
 			tf.text = configValue.string
-			tf.enabled = !readOnly
+			if readOnly {
+				tf.enabled = false
+				tf.textColor = Const.disableTextColor
+			} else {
+				tf.enabled = true
+				tf.textColor = nil
+			}
 		}
 		cell.textLabel?.text = configValue.title
 	}
