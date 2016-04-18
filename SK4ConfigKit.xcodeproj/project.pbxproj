@@ -44,7 +44,6 @@
 		87C2B2C81CC454DB00F8E251 /* SK4ConfigDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C31CC454DB00F8E251 /* SK4ConfigDateViewController.swift */; };
 		87C2B2C91CC454DB00F8E251 /* SK4ConfigPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C41CC454DB00F8E251 /* SK4ConfigPickerViewController.swift */; };
 		87C2B2CA1CC454DB00F8E251 /* SK4ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */; };
-		87C2B2CB1CC4552D00F8E251 /* SK4Toolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2B2811CC4545400F8E251 /* SK4Toolkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,20 +54,6 @@
 			remoteGlobalIDString = 87C2B2601CC44C0B00F8E251;
 			remoteInfo = SK4ConfigKit;
 		};
-		87C2B2801CC4545400F8E251 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 87BB45DC1CA2A1F100F0BC50;
-			remoteInfo = SK4Toolkit;
-		};
-		87C2B2821CC4545400F8E251 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 87BB45E61CA2A1F100F0BC50;
-			remoteInfo = SK4ToolkitTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -78,7 +63,6 @@
 		87C2B26B1CC44C0B00F8E251 /* SK4ConfigKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK4ConfigKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C2B2701CC44C0B00F8E251 /* SK4ConfigKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK4ConfigKitTests.swift; sourceTree = "<group>"; };
 		87C2B2721CC44C0B00F8E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SK4Toolkit.xcodeproj; path = ../SK4Toolkit/SK4Toolkit.xcodeproj; sourceTree = "<group>"; };
 		87C2B2841CC4547800F8E251 /* SK4ConfigAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigAdmin.swift; sourceTree = "<group>"; };
 		87C2B2851CC4547800F8E251 /* SK4ConfigTableViewAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigTableViewAdmin.swift; sourceTree = "<group>"; };
 		87C2B2861CC4547800F8E251 /* SK4ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK4ConfigTableViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C2B2CB1CC4552D00F8E251 /* SK4Toolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +121,6 @@
 		87C2B2571CC44C0B00F8E251 = {
 			isa = PBXGroup;
 			children = (
-				87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */,
 				87C2B2631CC44C0B00F8E251 /* SK4ConfigKit */,
 				87C2B26F1CC44C0B00F8E251 /* SK4ConfigKitTests */,
 				87C2B2621CC44C0B00F8E251 /* Products */,
@@ -177,15 +159,6 @@
 				87C2B2721CC44C0B00F8E251 /* Info.plist */,
 			);
 			path = SK4ConfigKitTests;
-			sourceTree = "<group>";
-		};
-		87C2B27C1CC4545400F8E251 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				87C2B2811CC4545400F8E251 /* SK4Toolkit.framework */,
-				87C2B2831CC4545400F8E251 /* SK4ToolkitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		87C2B28C1CC4549000F8E251 /* cell */ = {
@@ -317,12 +290,6 @@
 			mainGroup = 87C2B2571CC44C0B00F8E251;
 			productRefGroup = 87C2B2621CC44C0B00F8E251 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 87C2B27C1CC4545400F8E251 /* Products */;
-					ProjectRef = 87C2B27B1CC4545400F8E251 /* SK4Toolkit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				87C2B2601CC44C0B00F8E251 /* SK4ConfigKit */,
@@ -330,23 +297,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		87C2B2811CC4545400F8E251 /* SK4Toolkit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SK4Toolkit.framework;
-			remoteRef = 87C2B2801CC4545400F8E251 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		87C2B2831CC4545400F8E251 /* SK4ToolkitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SK4ToolkitTests.xctest;
-			remoteRef = 87C2B2821CC4545400F8E251 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87C2B25F1CC44C0B00F8E251 /* Resources */ = {
