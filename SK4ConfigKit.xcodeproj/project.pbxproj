@@ -44,6 +44,9 @@
 		87C2B2C81CC454DB00F8E251 /* SK4ConfigDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C31CC454DB00F8E251 /* SK4ConfigDateViewController.swift */; };
 		87C2B2C91CC454DB00F8E251 /* SK4ConfigPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C41CC454DB00F8E251 /* SK4ConfigPickerViewController.swift */; };
 		87C2B2CA1CC454DB00F8E251 /* SK4ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */; };
+		87C2B2E71CC45F3B00F8E251 /* ConfigAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2E51CC45F3B00F8E251 /* ConfigAdminTests.swift */; };
+		87C2B2E81CC45F3B00F8E251 /* ConfigValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2B2E61CC45F3B00F8E251 /* ConfigValueTests.swift */; };
+		87C2B2F21CC45FB000F8E251 /* SK4Toolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2B2EF1CC45F9200F8E251 /* SK4Toolkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 87C2B2601CC44C0B00F8E251;
 			remoteInfo = SK4ConfigKit;
+		};
+		87C2B2EE1CC45F9200F8E251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C2B2E91CC45F9200F8E251 /* SK4Toolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87BB45DC1CA2A1F100F0BC50;
+			remoteInfo = SK4Toolkit;
+		};
+		87C2B2F01CC45F9200F8E251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C2B2E91CC45F9200F8E251 /* SK4Toolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87BB45E61CA2A1F100F0BC50;
+			remoteInfo = SK4ToolkitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,6 +114,9 @@
 		87C2B2C31CC454DB00F8E251 /* SK4ConfigDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigDateViewController.swift; path = vc/SK4ConfigDateViewController.swift; sourceTree = "<group>"; };
 		87C2B2C41CC454DB00F8E251 /* SK4ConfigPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigPickerViewController.swift; path = vc/SK4ConfigPickerViewController.swift; sourceTree = "<group>"; };
 		87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigViewController.swift; path = vc/SK4ConfigViewController.swift; sourceTree = "<group>"; };
+		87C2B2E51CC45F3B00F8E251 /* ConfigAdminTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigAdminTests.swift; sourceTree = "<group>"; };
+		87C2B2E61CC45F3B00F8E251 /* ConfigValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigValueTests.swift; sourceTree = "<group>"; };
+		87C2B2E91CC45F9200F8E251 /* SK4Toolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SK4Toolkit.xcodeproj; path = ../SK4Toolkit/SK4Toolkit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C2B2F21CC45FB000F8E251 /* SK4Toolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +142,7 @@
 		87C2B2571CC44C0B00F8E251 = {
 			isa = PBXGroup;
 			children = (
+				87C2B2E91CC45F9200F8E251 /* SK4Toolkit.xcodeproj */,
 				87C2B2631CC44C0B00F8E251 /* SK4ConfigKit */,
 				87C2B26F1CC44C0B00F8E251 /* SK4ConfigKitTests */,
 				87C2B2621CC44C0B00F8E251 /* Products */,
@@ -156,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				87C2B2701CC44C0B00F8E251 /* SK4ConfigKitTests.swift */,
+				87C2B2E51CC45F3B00F8E251 /* ConfigAdminTests.swift */,
+				87C2B2E61CC45F3B00F8E251 /* ConfigValueTests.swift */,
 				87C2B2721CC44C0B00F8E251 /* Info.plist */,
 			);
 			path = SK4ConfigKitTests;
@@ -210,6 +234,15 @@
 				87C2B2C51CC454DB00F8E251 /* SK4ConfigViewController.swift */,
 			);
 			name = vc;
+			sourceTree = "<group>";
+		};
+		87C2B2EA1CC45F9200F8E251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C2B2EF1CC45F9200F8E251 /* SK4Toolkit.framework */,
+				87C2B2F11CC45F9200F8E251 /* SK4ToolkitTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +323,12 @@
 			mainGroup = 87C2B2571CC44C0B00F8E251;
 			productRefGroup = 87C2B2621CC44C0B00F8E251 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87C2B2EA1CC45F9200F8E251 /* Products */;
+					ProjectRef = 87C2B2E91CC45F9200F8E251 /* SK4Toolkit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				87C2B2601CC44C0B00F8E251 /* SK4ConfigKit */,
@@ -297,6 +336,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		87C2B2EF1CC45F9200F8E251 /* SK4Toolkit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SK4Toolkit.framework;
+			remoteRef = 87C2B2EE1CC45F9200F8E251 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87C2B2F11CC45F9200F8E251 /* SK4ToolkitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SK4ToolkitTests.xctest;
+			remoteRef = 87C2B2F01CC45F9200F8E251 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87C2B25F1CC44C0B00F8E251 /* Resources */ = {
@@ -361,7 +417,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C2B2E81CC45F3B00F8E251 /* ConfigValueTests.swift in Sources */,
 				87C2B2711CC44C0B00F8E251 /* SK4ConfigKitTests.swift in Sources */,
+				87C2B2E71CC45F3B00F8E251 /* ConfigAdminTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 import XCTest
 @testable import SK4ConfigKit
 
+/*
 class SK4ConfigKitTests: XCTestCase {
     
     override func setUp() {
@@ -34,3 +35,6 @@ class SK4ConfigKitTests: XCTestCase {
     }
     
 }
+*/
+
+// eof
