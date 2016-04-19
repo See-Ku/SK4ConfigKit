@@ -5,6 +5,9 @@ SK4ConfigKitは、設定画面っぽい機能をそこそこ簡単につくれ�
 
 SK4Toolkitを使用しています。
 
+See-Ku/SK4Toolkit  
+https://github.com/See-Ku/SK4Toolkit
+
 
 ## 動作環境
 
@@ -13,7 +16,7 @@ SK4Toolkitを使用しています。
 |Xcode	|7.3 (7D175)	|
 |iOS	|9.0			|
 |Swift	|2.2			|
-|Date	|2016/4/18 -	|
+|Date	|2016/4/19 -	|
 
 
 ## 説明書
