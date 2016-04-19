@@ -59,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		875F0A771CC5AC7100B84C60 /* SK4Toolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SK4Toolkit.framework; path = "../../../Library/Developer/Xcode/DerivedData/CrossCounter-enqgxadfovmldjbyaknhtqyfwnfg/Build/Products/Debug-iphonesimulator/SK4Toolkit.framework"; sourceTree = "<group>"; };
 		87C2B2611CC44C0B00F8E251 /* SK4ConfigKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SK4ConfigKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C2B2641CC44C0B00F8E251 /* SK4ConfigKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SK4ConfigKit.h; sourceTree = "<group>"; };
 		87C2B2661CC44C0B00F8E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		87C2B2571CC44C0B00F8E251 = {
 			isa = PBXGroup;
 			children = (
+				875F0A771CC5AC7100B84C60 /* SK4Toolkit.framework */,
 				87C2B2631CC44C0B00F8E251 /* SK4ConfigKit */,
 				87C2B26F1CC44C0B00F8E251 /* SK4ConfigKitTests */,
 				87C2B2621CC44C0B00F8E251 /* Products */,

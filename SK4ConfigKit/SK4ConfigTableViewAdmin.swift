@@ -70,8 +70,14 @@ public class SK4ConfigTableViewAdmin: SK4TableViewAdmin, SK4KeyboardObserver {
 	/// キーボードが隠された
 	public func onKeyboardWillHide(notify: NSNotification) {
 		keyboardRect = nil
-		tableView.contentInset.bottom = 0
-		tableView.scrollIndicatorInsets.bottom = 0
+
+		var offset: CGFloat = 0
+		if parent.tabBarController != nil {
+			offset += sk4TabBarHeight(parent)
+		}
+
+		tableView.contentInset.bottom = offset
+		tableView.scrollIndicatorInsets.bottom = offset
 	}
 
 	// /////////////////////////////////////////////////////////////
@@ -164,15 +170,6 @@ public class SK4ConfigTableViewAdmin: SK4TableViewAdmin, SK4KeyboardObserver {
 		return cc.hidden ? 0.0 : tableView.rowHeight
 	}
 
-	/*
-	public func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-	if configAdmin.userSection[section].hideFooter {
-	return 0.1
-	} else {
-	return tableView.sectionFooterHeight
-	}
-	}
-	*/
 }
 
 // eof
