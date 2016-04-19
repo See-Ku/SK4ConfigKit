@@ -55,6 +55,16 @@ public class SK4ConfigAdmin: SK4ConfigValue {
 		autoSave.resume()
 	}
 
+	// /////////////////////////////////////////////////////////////
+	// MARK: - 手動で復元／保存
+
+	/// コンフィグを復元
+	public func loadConfig() {
+		autoSave.pause()
+		onLoad()
+		autoSave.resume()
+	}
+
 	/// コンフィグの自動保存を実行
 	public func autoSaveConfig() {
 		if autoSave.flag == true {
